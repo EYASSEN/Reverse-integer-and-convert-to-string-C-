@@ -1,0 +1,10 @@
+ public static string ReverseNumber(int x)
+        {
+           
+            char[] output = x.ToString().ToCharArray();
+            Array.Reverse(output);
+
+            
+
+            return new string(output);
+        }
